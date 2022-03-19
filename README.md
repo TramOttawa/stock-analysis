@@ -11,9 +11,9 @@ There are some main codings were used to analize the stocks as follows:
 * Matching the 3 performance arrays with the ticker array is done by using a variable called the tickerIndex.
 * Nested For-Loops are used to loop through the data and complete the analysis.
 
-![Refactored coding 1](https://user-images.githubusercontent.com/100484606/159108538-f1817d9f-0533-4d58-bb8e-ae3162868d16.PNG)
+![Refactored coding 1](https://user-images.githubusercontent.com/100484606/159109147-0e8e9bf4-8cc8-45af-aee4-5643f4c2f40b.PNG)
 
-![Refactored coding 2](https://user-images.githubusercontent.com/100484606/159108545-bf858ca3-1add-486f-9669-3b23c2c9662a.PNG)
+![Refactored coding 2](https://user-images.githubusercontent.com/100484606/159109161-e2e20085-8640-4889-b287-fc639d822f20.PNG)
 
 
 #### 2017 vs 2018 Stock Performance
