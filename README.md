@@ -5,10 +5,16 @@
 * He loved being able to analyze each stock at the click of a button and now wants to expand his research beyond the 12 green stocks. He wants to analyze a higher volume of stocks and to save time, a refactoring of VBA coding was used to improve the execution time.
 ## Results
 ### Refactoring the Code
+There are some main codings were used to analize the stocks as follows:
 * 3 new arrays: -tickerVolumes(12) to hold volume -tickerStartingPrices(12) to hold starting price -tickerEndingPrices(12) to hold ending price
 * The above 3 arrays store performance data for each stock when a for-loop runs analysis on them. 
 * Matching the 3 performance arrays with the ticker array is done by using a variable called the tickerIndex.
 * Nested For-Loops are used to loop through the data and complete the analysis.
+
+![Refactored coding 1](https://user-images.githubusercontent.com/100484606/159108538-f1817d9f-0533-4d58-bb8e-ae3162868d16.PNG)
+
+![Refactored coding 2](https://user-images.githubusercontent.com/100484606/159108545-bf858ca3-1add-486f-9669-3b23c2c9662a.PNG)
+
 
 #### 2017 vs 2018 Stock Performance
 There is a huge change in the 2017 performance of Green Stocks vs 2018. Only 2 of the 12 stocks (ENPH and RUN) produced a positive ROI in both years.
@@ -17,7 +23,7 @@ There is a huge change in the 2017 performance of Green Stocks vs 2018. Only 2 o
 
 ![Stocks_2018](https://user-images.githubusercontent.com/100484606/159107817-36c1e1c2-3c43-4241-a085-07f5d6b915f6.JPG)
 
-Steve should advise his parents to look for other stocks in other sectors rather than green stocks as the performances of the green stocks was not positive and have risks. 
+Steve should advise his parents to look for other stocks in other sectors rather than green stocks as the performances of the green stocks was not positive and have high risks. 
 
 #### Execution time
 * Comparing between the original script and the refactored script, we can see the improvement dramatically with 86%
@@ -40,7 +46,9 @@ Steve should advise his parents to look for other stocks in other sectors rather
 ## Summary
 
 ### Advantages of refactoring code
-The obvious advantage of refactoring code is that it makes it more efficient if you get it right. An 82% reduction in execution time can be huge if analyzing thousands of rows of data.
+* After refactoring, the code is fresher, easier to understand or read, less complex and easier to maintain. 
+* Disadvantages of Code Refactoring: Time Consuming: You may have no idea how much time it may take to complete the process. It may also land you into a situation where you have no idea where to go.
 
-### Disadvantages of refactoring code
-A huge risk with refactoring is that your errors may destroy an already working code. It is highly recommended that you save your original code and any changes you make frequently in case you run into any issues. That way you can always go back a step without needing to start completely over. I personally ran into issues during refactoring and found that using the msgBox script, as well as, testing performance outputs individually helped me identify what was driving my errors.
+### Advantages and Disadvantages of the original and refactored VBA scripts:
+* The obvious advantage of VBA refactoring code is that it makes it more efficient if you get it right. An 82% reduction in execution time can be huge if analyzing thousands of rows of data.
+* A huge risk with refactoring is that your errors may destroy an already working code. It is highly recommended that you save your original code and any changes you make frequently in case you run into any issues. That way you can always go back a step without needing to start completely over. It is suggested that to avoid deleting codes by accident, it is useful to use the msgBox script to confirm.
