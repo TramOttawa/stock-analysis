@@ -15,15 +15,14 @@ There are some main codings were used to analize the stocks as follows:
 
 ![Refactored coding 2](https://user-images.githubusercontent.com/100484606/159109161-e2e20085-8640-4889-b287-fc639d822f20.PNG)
 
-
 #### 2017 vs 2018 Stock Performance
-There is a huge change in the 2017 performance of Green Stocks vs 2018. Only 2 of the 12 stocks (ENPH and RUN) produced a positive ROI in both years.
+* Green-energy stocks in 2017 had a high ratio of positive yearly returns (only one green-energy stock (TERP)) had a negative yearly return. Analysis from 2018 showed a completely different picture. The majority of stocks had negative returns. The drop was significant. The DQ stock had almost 200% yearly return in 2017, but in 2018 the stock dropped with negative 63%.
+
+* Only 2 of the 12 stocks (ENPH and RUN) produced a positive ROI in 2018. Steve should advise his parents to look for other stocks in other sectors rather than green stocks as the performances of the green stocks was not positive and have high risks. 
 
 ![Stocks_2017](https://user-images.githubusercontent.com/100484606/159107810-71958f2d-7cb6-41a8-a8e2-cbd5684b7b37.JPG)
 
 ![Stocks_2018](https://user-images.githubusercontent.com/100484606/159107817-36c1e1c2-3c43-4241-a085-07f5d6b915f6.JPG)
-
-Steve should advise his parents to look for other stocks in other sectors rather than green stocks as the performances of the green stocks was not positive and have high risks. 
 
 #### Execution time
 * Comparing between the original script and the refactored script, we can see the improvement dramatically with 86%
