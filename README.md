@@ -1,14 +1,14 @@
 # Stock-analysis
 ## Overview of project
 ### Background and purpose
-* Steve needs help analyzing stocks market to support his parent’s investment decisions. With my knowledge about Visual Basic Application (VBA) I am willing to help him to provide each stocks annual volume and return on investment (ROI).
-* He loved being able to analyze each stock at the click of a button and now wants to expand his research beyond the 12 green stocks. He wants to analyze a higher volume of stocks and to save time, a refactoring of VBA coding was used to improve the execution time.
+* Steve needs help analyzing stocks market to support his parent’s investment decisions. With my knowledge about Visual Basic Application (VBA), I am willing to help him to provide each stocks annual volume and return on investment (ROI).
+* He wants to be able to analyze each stock at the click of a button and now wants to expand his research beyond the 12 green stocks. He also wants to analyze a higher volume of stocks and to save time, a refactoring of VBA coding was used to improve the execution time.
 ## Results
 ### Refactoring the Code
 There are some main codings were used to analize the stocks as follows:
-* 3 new arrays: -tickerVolumes(12) to hold volume -tickerStartingPrices(12) to hold starting price -tickerEndingPrices(12) to hold ending price
+* 3 new arrays: tickerVolumes(12) to hold volume; tickerStartingPrices(12) to hold starting price and tickerEndingPrices(12) to hold ending price
 * The above 3 arrays store performance data for each stock when a for-loop runs analysis on them. 
-* Matching the 3 performance arrays with the ticker array is done by using a variable called the tickerIndex.
+* Matching the 3 performance arrays with the ticker array by using a variable called the tickerIndex.
 * Nested For-Loops are used to loop through the data and complete the analysis.
 
 ![Refactored coding 1](https://user-images.githubusercontent.com/100484606/159109147-0e8e9bf4-8cc8-45af-aee4-5643f4c2f40b.PNG)
@@ -45,10 +45,10 @@ Steve should advise his parents to look for other stocks in other sectors rather
 
 ## Summary
 
-### Advantages of refactoring code
+### Advantages and disadvantes of refactoring code
 * After refactoring, the code is fresher, easier to understand or read, less complex and easier to maintain. 
-* Disadvantages of Code Refactoring: Time Consuming: You may have no idea how much time it may take to complete the process. It may also land you into a situation where you have no idea where to go.
+* Disadvantages of Code Refactoring is time consuming: You may have no idea how much time it may take to complete the process. It may also land you into a situation where you have no idea where to go.
 
-### Advantages and Disadvantages of the original and refactored VBA scripts:
-* The obvious advantage of VBA refactoring code is that it makes it more efficient if you get it right. An 82% reduction in execution time can be huge if analyzing thousands of rows of data.
-* A huge risk with refactoring is that your errors may destroy an already working code. It is highly recommended that you save your original code and any changes you make frequently in case you run into any issues. That way you can always go back a step without needing to start completely over. It is suggested that to avoid deleting codes by accident, it is useful to use the msgBox script to confirm.
+### Advantages and disadvantages of the original and refactored VBA scripts:
+* The obvious advantage of VBA refactoring code is that it makes more efficient if you get it right. An 86% reduction in execution time can be significant if analyzing thousands of rows of data.
+* A huge risk with refactoring is that your errors may destroy an already working code. It is highly recommended that you save your original code and any changes you make frequently in case you run into any issues. It is suggested to use the msgBox script to confirm before deleting any coding.
